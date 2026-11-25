@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Placeholder adaptive-icon foreground. Replace with final brand artwork. -->
+    <path
+        android:fillColor="#F5EFE4"
+        android:pathData="M54,20 A34,34 0 1,1 53.99,20 Z" />
+    <path
+        android:strokeColor="#191827"
+        android:strokeWidth="7.5"
+        android:strokeLineCap="round"
+        android:pathData="M36,41 L54,59 M54,41 L36,59" />
+    <path
+        android:strokeColor="#FF6B4A"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M68,47 A10.5,10.5 0 1,1 67.99,47 Z" />
+</vector>

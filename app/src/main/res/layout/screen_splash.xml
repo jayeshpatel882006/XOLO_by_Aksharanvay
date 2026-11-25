@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/xoloPaper">
+
+    <com.aksharanvay.xolo.ui.view.AmbientPlaygroundView
+        android:id="@+id/splash_ambient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/splash_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp">
+
+        <ImageView
+            android:id="@+id/splash_logo"
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:alpha="0"
+            android:contentDescription="@string/cd_logo"
+            android:scaleX="0.55"
+            android:scaleY="0.55"
+            android:src="@drawable/ic_xolo_mark" />
+
+        <TextView
+            android:id="@+id/splash_wordmark"
+            style="@style/Text.Xolo.Wordmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:alpha="0"
+            android:text="@string/brand_wordmark"
+            android:textSize="66sp" />
+
+        <TextView
+            android:id="@+id/splash_signature"
+            style="@style/Text.Xolo.Signature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:alpha="0"
+            android:text="@string/brand_signature" />
+
+        <View
+            android:id="@+id/splash_accent"
+            android:layout_width="56dp"
+            android:layout_height="4dp"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/bg_accent_line"
+            android:scaleX="0" />
+
+        <TextView
+            android:id="@+id/splash_tagline"
+            style="@style/Text.Xolo.Body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:alpha="0"
+            android:gravity="center"
+            android:text="@string/tagline"
+            android:textColor="?attr/xoloTextPrimary"
+            android:textSize="17sp" />
+
+        <FrameLayout
+            android:id="@+id/splash_publisher"
+            android:layout_width="104dp"
+            android:layout_height="104dp"
+            android:layout_marginTop="30dp"
+            android:alpha="0"
+            android:background="@drawable/bg_brand_plaque"
+            android:clipToOutline="true"
+            android:elevation="8dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/cd_publisher_logo"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo_aksharanvay" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

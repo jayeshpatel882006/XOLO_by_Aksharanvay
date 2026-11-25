@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Text.Xolo.Wordmark" parent="@android:style/TextAppearance.Material.Display3">
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textSize">64sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textColor">?attr/xoloTextPrimary</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Text.Xolo.Display" parent="@android:style/TextAppearance.Material.Display2">
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textSize">34sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">?attr/xoloTextPrimary</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Text.Xolo.Headline" parent="@android:style/TextAppearance.Material.Headline">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">?attr/xoloTextPrimary</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Text.Xolo.Title" parent="@android:style/TextAppearance.Material.Title">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">?attr/xoloTextPrimary</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Text.Xolo.Body" parent="@android:style/TextAppearance.Material.Body1">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingMultiplier">1.15</item>
+        <item name="android:textColor">?attr/xoloTextSecondary</item>
+    </style>
+
+    <style name="Text.Xolo.Caption" parent="@android:style/TextAppearance.Material.Caption">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">?attr/xoloTextSecondary</item>
+    </style>
+
+    <style name="Text.Xolo.Signature" parent="@android:style/TextAppearance.Material.Caption">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:letterSpacing">0.34</item>
+        <item name="android:textColor">?attr/xoloTextSecondary</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Text.Xolo.Button" parent="@android:style/TextAppearance.Material.Button">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">?attr/xoloTextPrimary</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Widget.Xolo.IconButton" parent="">
+        <item name="android:layout_width">@dimen/xolo_icon_button_size</item>
+        <item name="android:layout_height">@dimen/xolo_icon_button_size</item>
+        <item name="android:background">@drawable/bg_icon_button</item>
+        <item name="android:padding">13dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:tint">?attr/xoloTextPrimary</item>
+    </style>
+
+</resources>

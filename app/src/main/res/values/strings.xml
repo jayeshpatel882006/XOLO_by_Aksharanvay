@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XOLO</string>
+    <string name="brand_wordmark">XOLO</string>
+    <string name="brand_signature">BY AKSHARANVAY</string>
+    <string name="tagline">A Little Game. A Lot of Play.</string>
+
+    <!-- Home -->
+    <string name="play_friend_title">Play with a friend</string>
+    <string name="play_friend_sub">Two players, one device</string>
+    <string name="play_computer_title">Play with the computer</string>
+    <string name="play_computer_sub">Three levels of mischief</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="home_footer">Made for the joy of a tiny rivalry.</string>
+
+    <!-- Game -->
+    <string name="mode_friend">Friend mode</string>
+    <string name="mode_computer">Computer mode</string>
+    <string name="turn_x">X\u2019s turn</string>
+    <string name="turn_o">O\u2019s turn</string>
+    <string name="turn_your">Your turn</string>
+    <string name="turn_computer">Computer\u2019s turn</string>
+    <string name="turn_thinking">Thinking\u2026</string>
+    <string name="turn_your_sub">Tap any open square</string>
+    <string name="turn_friend_sub">Pass the device when you are ready</string>
+    <string name="turn_computer_sub">The machine is considering its move</string>
+    <string name="turn_over_sub">Start another round when you are ready</string>
+    <string name="status_draw">A perfect stalemate.</string>
+    <string name="status_x_wins">X takes the round.</string>
+    <string name="status_o_wins">O takes the round.</string>
+    <string name="status_you_win">You take the round.</string>
+    <string name="status_computer_wins">The computer takes the round.</string>
+    <string name="score_label_x">X</string>
+    <string name="score_label_o">O</string>
+    <string name="score_label_you">You</string>
+    <string name="score_label_cpu">CPU</string>
+    <string name="score_label_draws">Draws</string>
+    <string name="restart">Restart</string>
+    <string name="new_game">New game</string>
+    <string name="back">Back</string>
+    <string name="back_home">Back to home</string>
+    <string name="game_over">Round over</string>
+
+    <!-- Setup -->
+    <string name="setup_title">Pick your side</string>
+    <string name="setup_body">X moves first. Choose the mark you want to play.</string>
+    <string name="setup_start">Start match</string>
+    <string name="setup_close">Not now</string>
+    <string name="setup_difficulty">Computer difficulty</string>
+    <string name="choose_x">Play as X</string>
+    <string name="choose_o">Play as O</string>
+    <string name="choose_x_sub">You move first</string>
+    <string name="choose_o_sub">You move second</string>
+
+    <!-- Difficulty -->
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_hard">Hard</string>
+    <string name="difficulty_easy_sub">A relaxed opponent</string>
+    <string name="difficulty_medium_sub">It blocks. It bites.</string>
+    <string name="difficulty_hard_sub">It never blinks.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_sub">Tune the table</string>
+    <string name="settings_section_feel">Feel</string>
+    <string name="settings_section_look">Look</string>
+    <string name="settings_section_opponent">Opponent</string>
+    <string name="sound_title">Sound</string>
+    <string name="sound_sub">Original little clicks and chimes</string>
+    <string name="vibration_title">Vibration</string>
+    <string name="vibration_sub">A tap you can feel</string>
+    <string name="theme_title">Theme</string>
+    <string name="theme_sub">How XOLO looks</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="difficulty_title">Computer difficulty</string>
+    <string name="difficulty_sub">Used when you start a new match</string>
+    <string name="reset_scores">Reset all game data</string>
+    <string name="reset_scores_sub">Clear every score and the current board</string>
+    <string name="reset_scores_dialog_title">Reset all game data?</string>
+    <string name="reset_scores_dialog_body">Every win, loss and draw for both modes will return to zero, and the current board will be cleared. This cannot be undone.</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Keep them</string>
+    <string name="reset_done">All game data reset.</string>
+
+    <!-- About -->
+    <string name="about_title">About XOLO</string>
+    <string name="about_body">XOLO is a small, tactile tic-tac-toe game built by AKSHARANVAY. Two players, one device, or a computer that is happy to take its time.</string>
+    <string name="developed_by">Developed by AKSHARANVAY</string>
+    <string name="version_format">Version %1$s</string>
+    <string name="about_design">Designed and built in-house. No ads, no tracking, no internet required.</string>
+    <string name="about_thanks">A Little Game. A Lot of Play.</string>
+
+    <!-- Dialogs -->
+    <string name="new_game_dialog_title">Start a new game?</string>
+    <string name="new_game_dialog_body">The board and this mode\u2019s score will reset.</string>
+    <string name="new_game_confirm">New game</string>
+    <string name="new_game_cancel">Keep playing</string>
+
+    <!-- Accessibility -->
+    <string name="cd_logo">XOLO placeholder logo</string>
+    <string name="cd_publisher_logo">AKSHARANVAY logo</string>
+    <string name="cd_settings">Open settings</string>
+    <string name="cd_about">Open about</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_close">Close</string>
+    <string name="cd_mark_x">X</string>
+    <string name="cd_mark_o">O</string>
+    <string name="cd_ambient">Playful floating X and O shapes</string>
+    <string name="cd_board">Tic tac toe board</string>
+    <string name="cd_thinking">Computer is thinking</string>
+    <string name="cd_choose_x">Choose X and move first</string>
+    <string name="cd_choose_o">Choose O and move second</string>
+    <string name="cd_toggle_on">On</string>
+    <string name="cd_toggle_off">Off</string>
+    <string name="cell_empty">Cell %1$d, empty</string>
+    <string name="cell_x">Cell %1$d, X</string>
+    <string name="cell_o">Cell %1$d, O</string>
+    <string name="cell_empty_action">Cell %1$d, empty. Tap to play.</string>
+    <string name="announce_turn_x">X\u2019s turn</string>
+    <string name="announce_turn_o">O\u2019s turn</string>
+    <string name="announce_win_x">X wins</string>
+    <string name="announce_win_o">O wins</string>
+    <string name="announce_draw">Draw</string>
+</resources>

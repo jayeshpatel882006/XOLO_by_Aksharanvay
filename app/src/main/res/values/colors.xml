@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      XOLO brand palette (temporary / replaceable).
+      These raw values are the single source of truth for the two themes.
+      Change them here, then update Theme.Xolo.Light and Theme.Xolo.Dark
+      mappings if you add or rename a colour.
+    -->
+    <color name="xolo_paper_light">#F5EFE4</color>
+    <color name="xolo_paper_deep_light">#E8DECF</color>
+    <color name="xolo_surface_light">#FFFBF3</color>
+    <color name="xolo_surface_alt_light">#EDE3D4</color>
+    <color name="xolo_ink_light">#191827</color>
+    <color name="xolo_text_primary_light">#191827</color>
+    <color name="xolo_text_secondary_light">#6F6878</color>
+
+    <color name="xolo_solar">#FF6B4A</color>
+    <color name="xolo_solar_deep">#D9482C</color>
+    <color name="xolo_mint">#2FC7A5</color>
+    <color name="xolo_mint_deep">#168F76</color>
+    <color name="xolo_lilac">#B9A7FF</color>
+    <color name="xolo_butter">#FFD166</color>
+
+    <color name="xolo_board_well_light">#DED1BF</color>
+    <color name="xolo_board_well_edge_light">#C9BBA7</color>
+    <color name="xolo_shadow_light">#2A2333</color>
+    <color name="xolo_stroke_light">#191827</color>
+    <color name="xolo_overlay_light">#B3191827</color>
+
+    <color name="xolo_paper_dark">#12111C</color>
+    <color name="xolo_paper_deep_dark">#0A0910</color>
+    <color name="xolo_surface_dark">#1E1C2C</color>
+    <color name="xolo_surface_alt_dark">#28253A</color>
+    <color name="xolo_ink_dark">#F6F0E5</color>
+    <color name="xolo_text_primary_dark">#F6F0E5</color>
+    <color name="xolo_text_secondary_dark">#A9A1B6</color>
+
+    <color name="xolo_solar_dark">#FF8062</color>
+    <color name="xolo_solar_deep_dark">#E55A3B</color>
+    <color name="xolo_mint_dark">#45D8B7</color>
+    <color name="xolo_mint_deep_dark">#22A98A</color>
+    <color name="xolo_lilac_dark">#C6B7FF</color>
+    <color name="xolo_butter_dark">#FFDD8A</color>
+
+    <color name="xolo_board_well_dark">#2B273C</color>
+    <color name="xolo_board_well_edge_dark">#3A3550</color>
+    <color name="xolo_shadow_dark">#000000</color>
+    <color name="xolo_stroke_dark">#F6F0E5</color>
+    <color name="xolo_overlay_dark">#CC000000</color>
+
+    <color name="xolo_boot_background">#0A0910</color>
+    <color name="xolo_launcher_background">#191827</color>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Centralised motion durations (milliseconds). -->
+    <integer name="xolo_duration_micro">110</integer>
+    <integer name="xolo_duration_short">180</integer>
+    <integer name="xolo_duration_medium">280</integer>
+    <integer name="xolo_duration_long">420</integer>
+    <integer name="xolo_duration_win">620</integer>
+    <integer name="xolo_duration_splash">1900</integer>
+    <integer name="xolo_duration_ai_think">620</integer>
+    <integer name="xolo_stagger">70</integer>
+</resources>

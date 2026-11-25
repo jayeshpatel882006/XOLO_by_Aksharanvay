@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Xolo.Light" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@drawable/boot_background</item>
+        <item name="android:statusBarColor">?attr/xoloPaper</item>
+        <item name="android:navigationBarColor">@color/xolo_ink_light</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:colorAccent">?attr/xoloSolar</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:windowContentTransitions">true</item>
+
+        <item name="xoloPaper">@color/xolo_paper_light</item>
+        <item name="xoloPaperDeep">@color/xolo_paper_deep_light</item>
+        <item name="xoloSurface">@color/xolo_surface_light</item>
+        <item name="xoloSurfaceAlt">@color/xolo_surface_alt_light</item>
+        <item name="xoloInk">@color/xolo_ink_light</item>
+        <item name="xoloTextPrimary">@color/xolo_text_primary_light</item>
+        <item name="xoloTextSecondary">@color/xolo_text_secondary_light</item>
+        <item name="xoloSolar">@color/xolo_solar</item>
+        <item name="xoloSolarDeep">@color/xolo_solar_deep</item>
+        <item name="xoloMint">@color/xolo_mint</item>
+        <item name="xoloMintDeep">@color/xolo_mint_deep</item>
+        <item name="xoloLilac">@color/xolo_lilac</item>
+        <item name="xoloButter">@color/xolo_butter</item>
+        <item name="xoloBoardWell">@color/xolo_board_well_light</item>
+        <item name="xoloBoardWellEdge">@color/xolo_board_well_edge_light</item>
+        <item name="xoloShadow">@color/xolo_shadow_light</item>
+        <item name="xoloStroke">@color/xolo_stroke_light</item>
+        <item name="xoloOverlay">@color/xolo_overlay_light</item>
+    </style>
+
+    <style name="Theme.Xolo.Dark" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@drawable/boot_background</item>
+        <item name="android:statusBarColor">?attr/xoloPaper</item>
+        <item name="android:navigationBarColor">@color/xolo_ink_light</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:colorAccent">?attr/xoloSolar</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:windowContentTransitions">true</item>
+
+        <item name="xoloPaper">@color/xolo_paper_dark</item>
+        <item name="xoloPaperDeep">@color/xolo_paper_deep_dark</item>
+        <item name="xoloSurface">@color/xolo_surface_dark</item>
+        <item name="xoloSurfaceAlt">@color/xolo_surface_alt_dark</item>
+        <item name="xoloInk">@color/xolo_ink_dark</item>
+        <item name="xoloTextPrimary">@color/xolo_text_primary_dark</item>
+        <item name="xoloTextSecondary">@color/xolo_text_secondary_dark</item>
+        <item name="xoloSolar">@color/xolo_solar_dark</item>
+        <item name="xoloSolarDeep">@color/xolo_solar_deep_dark</item>
+        <item name="xoloMint">@color/xolo_mint_dark</item>
+        <item name="xoloMintDeep">@color/xolo_mint_deep_dark</item>
+        <item name="xoloLilac">@color/xolo_lilac_dark</item>
+        <item name="xoloButter">@color/xolo_butter_dark</item>
+        <item name="xoloBoardWell">@color/xolo_board_well_dark</item>
+        <item name="xoloBoardWellEdge">@color/xolo_board_well_edge_dark</item>
+        <item name="xoloShadow">@color/xolo_shadow_dark</item>
+        <item name="xoloStroke">@color/xolo_stroke_dark</item>
+        <item name="xoloOverlay">@color/xolo_overlay_dark</item>
+    </style>
+
+</resources>

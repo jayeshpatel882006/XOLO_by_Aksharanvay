@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="xolo_space_xs">4dp</dimen>
+    <dimen name="xolo_space_sm">8dp</dimen>
+    <dimen name="xolo_space_md">16dp</dimen>
+    <dimen name="xolo_space_lg">24dp</dimen>
+    <dimen name="xolo_space_xl">32dp</dimen>
+    <dimen name="xolo_space_xxl">48dp</dimen>
+
+    <dimen name="xolo_radius_sm">14dp</dimen>
+    <dimen name="xolo_radius_md">22dp</dimen>
+    <dimen name="xolo_radius_lg">30dp</dimen>
+    <dimen name="xolo_radius_xl">36dp</dimen>
+    <dimen name="xolo_radius_pill">999dp</dimen>
+
+    <dimen name="xolo_screen_padding">24dp</dimen>
+    <dimen name="xolo_mode_card_height">108dp</dimen>
+    <dimen name="xolo_small_button_height">58dp</dimen>
+    <dimen name="xolo_icon_button_size">48dp</dimen>
+    <dimen name="xolo_board_padding">16dp</dimen>
+    <dimen name="xolo_board_gap">10dp</dimen>
+    <dimen name="xolo_touch_target">48dp</dimen>
+    <dimen name="xolo_logo_size">78dp</dimen>
+    <dimen name="xolo_dialog_width">320dp</dimen>
+</resources>

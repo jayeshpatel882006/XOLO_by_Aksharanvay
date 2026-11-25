@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme-aware colour attributes used by layouts, drawables and custom views. -->
+    <attr name="xoloPaper" format="color" />
+    <attr name="xoloPaperDeep" format="color" />
+    <attr name="xoloSurface" format="color" />
+    <attr name="xoloSurfaceAlt" format="color" />
+    <attr name="xoloInk" format="color" />
+    <attr name="xoloTextPrimary" format="color" />
+    <attr name="xoloTextSecondary" format="color" />
+    <attr name="xoloSolar" format="color" />
+    <attr name="xoloSolarDeep" format="color" />
+    <attr name="xoloMint" format="color" />
+    <attr name="xoloMintDeep" format="color" />
+    <attr name="xoloLilac" format="color" />
+    <attr name="xoloButter" format="color" />
+    <attr name="xoloBoardWell" format="color" />
+    <attr name="xoloBoardWellEdge" format="color" />
+    <attr name="xoloShadow" format="color" />
+    <attr name="xoloStroke" format="color" />
+    <attr name="xoloOverlay" format="color" />
+</resources>
