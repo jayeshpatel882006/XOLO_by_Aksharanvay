@@ -12,7 +12,8 @@ identity lives in a small, documented set of resources.
 
 | Asset | File |
 | --- | --- |
-| In-app logo (splash, about) | `app/src/main/res/drawable/ic_xolo_mark.xml` |
+| Splash logo | `app/src/main/res/drawable-nodpi/logo_xolo_glossy.webp` |
+| In-app logo (about) | `app/src/main/res/drawable/ic_xolo_mark.xml` |
 | Adaptive launcher icon (API 26+) | `app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml` |
 | Adaptive icon foreground | `app/src/main/res/drawable/ic_launcher_foreground.xml` |
 | Adaptive icon background | `@color/xolo_launcher_background` in `values/colors.xml` |
@@ -38,11 +39,11 @@ rebranded by editing strings alone.
    central 72 × 72 safe area).
 2. Export as an Android **vector drawable** and replace the contents of
    `app/src/main/res/drawable/ic_xolo_mark.xml`.
-3. Keep the file name `ic_xolo_mark` so the splash, home and about layouts pick
-   it up automatically. If you rename it, update the `android:src` references in
-   `screen_splash.xml` and `screen_about.xml`.
-4. The in-app logo is shown at 78–94dp; favour bold, simple shapes that read at
-   small sizes.
+3. Keep the file name `ic_xolo_mark` so the about layout picks it up
+   automatically. If you rename it, update the `android:src` reference in
+   `screen_about.xml`.
+4. The about logo is shown at 94dp; favour bold, simple shapes that read at
+   small sizes. The splash uses the glossy 600 × 600 artwork instead.
 
 Minimal vector template:
 

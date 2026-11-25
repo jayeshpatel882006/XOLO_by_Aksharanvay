@@ -101,7 +101,7 @@
     <string name="new_game_cancel">Keep playing</string>
 
     <!-- Accessibility -->
-    <string name="cd_logo">XOLO placeholder logo</string>
+    <string name="cd_logo">XOLO logo</string>
     <string name="cd_publisher_logo">AKSHARANVAY logo</string>
     <string name="cd_settings">Open settings</string>
     <string name="cd_about">Open about</string>

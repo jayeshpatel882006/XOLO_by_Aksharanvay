@@ -3,6 +3,7 @@ package com.aksharanvay.xolo.ui.screen
 import android.animation.ValueAnimator
 import android.content.Context
 import android.view.View
+import android.view.animation.AccelerateDecelerateInterpolator
 import android.view.animation.DecelerateInterpolator
 import android.view.animation.OvershootInterpolator
 import android.widget.ImageView
@@ -25,6 +26,7 @@ class SplashScreen(
     private val publisher = findViewById<View>(R.id.splash_publisher)
 
     private var started = false
+    private var logoFloat: ValueAnimator? = null
     private val finishRunnable = Runnable { onFinished() }
 
     override fun onShown() {
@@ -43,6 +45,7 @@ class SplashScreen(
             .setStartDelay(80L)
             .setDuration(720L)
             .setInterpolator(OvershootInterpolator(1.5f))
+            .withEndAction { startLogoFloat() }
             .start()
 
         wordmark.animate()
@@ -92,8 +95,30 @@ class SplashScreen(
         postDelayed(finishRunnable, SPLASH_DURATION)
     }
 
+    /**
+     * Keeps the new glossy mark alive after its entrance instead of letting it
+     * sit still for the rest of the splash.
+     */
+    private fun startLogoFloat() {
+        if (!isAttachedToWindow || logoFloat != null) return
+        logoFloat = ValueAnimator.ofFloat(0f, 1f).apply {
+            duration = 1500L
+            repeatCount = ValueAnimator.INFINITE
+            repeatMode = ValueAnimator.REVERSE
+            interpolator = AccelerateDecelerateInterpolator()
+            addUpdateListener {
+                val progress = it.animatedValue as Float
+                logo.translationY = -context.dp(3f) * progress
+                logo.rotation = 2.5f * progress
+            }
+            start()
+        }
+    }
+
     override fun onDetachedFromWindow() {
         removeCallbacks(finishRunnable)
+        logoFloat?.cancel()
+        logoFloat = null
         super.onDetachedFromWindow()
     }
 
